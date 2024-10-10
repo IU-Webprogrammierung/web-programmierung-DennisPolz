@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Start</title>
+    <link rel="stylesheet" href="style.css">
   <script>
     (function(d) {
         var config = {
@@ -15,64 +16,12 @@
       })(document);
   </script>
 </head>
-
-<style> 
-    body {
-        background-color: #fffcff;
-    }
-
-    button {
-        background-color: #1E1E1E;
-        color: #ffffff; 
-        border: none;
-        border-radius: 8px;
-        height: 40px;
-        width: 120px;
-        cursor: pointer;
-    }
-
-    .link-button {
-      color:#ffffff;
-      text-decoration: none;
-      font-family: "pretendard", sans-serif;
-      font-weight: 500;
-    }
-
-    .element-header-aktiv {
-      color:#000000;
-      text-decoration: none;
-      font-family: "pretendard", sans-serif;
-      font-weight: 600;
-    }
-
-    .element-header-deaktiv {
-      color:#000000;
-      text-decoration: none;
-      font-family: "pretendard", sans-serif;
-      font-weight: 400;
-    }
-    .picture-start {
-      width:630px;
-      height:590px;
-    }
-    .overlay {
-      background-color: #000000;
-      opacity: 0.2;
-      transition: .2s ease;
-    }
-    .picture-start:hover.overlay {
-      opacity: 1.0;
-    }
-
-</style>
-
 <body>
 <!--hero element-->
     <p> hi. i’m dennis: a multi disciplinary designer.
         i help you to understand complex problems and
         transform them into sustainable solutions.
     <p> 
-        
     <button>
       <a class="link-button" href="about.html">about</a>
     </button>
@@ -84,7 +33,7 @@
     <header><a class="element-header-deaktiv" href="about.html">about</a></header>
 <main>
     <p> here is a selection of some of my latest projects. 
-    <em>some work can not be shown publicly.</em> </p>
+    <span class="span-note">some work can not be shown publicly.</span></p>
     <img class="picture-start" src="images/start/projekt-01.jpeg" alt="Schaeffler Automechanika Frankfurt">
     <img class="picture-start" src="images/start/projekt-02.jpg" alt="Tunnel Monitoring System">
     <img class="picture-start" src="images/start/projekt-03.png" alt="Porsche Global Dealer Launch 2024">
@@ -93,8 +42,10 @@
     <img class="picture-start" src="images/start/projekt-06.png" alt="Mangala Yoga">
 </main>
 <footer>
-    Let’s create together. 
-    Get in touch. 
+    <p class="Footer" >
+      Let’s create together.
+      Get in touch. 
+    </p>
     <a href="madebypolz@gmail.com">Email</a>,
     <a href="https://dribbble.com/dennispolz">Designs</a>  
 </footer>

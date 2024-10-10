@@ -17,3 +17,57 @@ body {
   .grid-item3 {
     grid-row: 3 / span 1;
   }
+
+
+  body {
+        background-color: #fffcff;
+    }
+    
+  p {
+      font-family: "pretendard", sans-serif;
+    }
+    
+  button {
+        background-color: #1E1E1E;
+        color: #ffffff; 
+        font-family: "pretendard", sans-serif;
+        font-weight: 500;
+        border: none;
+        border-radius: 8px;
+        height: 40px;
+        width: 120px;
+        cursor: pointer;
+    }
+
+    .link-button {
+      color:#ffffff;
+      text-decoration: none;
+    }
+
+    a {
+      font-family: "pretendard", sans-serif;
+      color:#000000;
+      text-decoration: none;
+    }
+
+    .element-header-aktiv {
+      font-weight: 600;
+    }
+    .span-note { 
+    color: #808080;
+}
+    .element-header-deaktiv {
+      font-weight: 400;
+    }
+    .picture-start {
+      width:630px;
+      height:590px;
+    }
+    .overlay {
+      background-color: #000000;
+      opacity: 0.2;
+      transition: .2s ease;
+    }
+    .picture-start:hover.overlay {
+      opacity: 1.0;
+    }
