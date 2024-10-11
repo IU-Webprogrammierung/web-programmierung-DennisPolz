@@ -25,6 +25,7 @@ body {
     
   p {
       font-family: "pretendard", sans-serif;
+      margin-left: 120px;
     }
     
   button {
@@ -44,24 +45,36 @@ body {
       text-decoration: none;
     }
 
+    button:hover {
+      background-color: #000000;
+    }
+
     a {
       font-family: "pretendard", sans-serif;
       color:#000000;
       text-decoration: none;
     }
 
-    .element-header-aktiv {
+    .element-menu-aktiv {
       font-weight: 600;
     }
-    .span-note { 
-    color: #808080;
-}
-    .element-header-deaktiv {
+
+    .element-menu-deaktiv {
       font-weight: 400;
     }
+
+    .element-menu-deaktiv:hover {
+      text-decoration: underline;
+    }
+
+    .span-note { 
+    color: #808080;
+    }
+    
     .picture-start {
       width:630px;
       height:590px;
+      object-fit: cover;
     }
     .overlay {
       background-color: #000000;
@@ -70,4 +83,38 @@ body {
     }
     .picture-start:hover.overlay {
       opacity: 1.0;
+    }
+
+    .container-hero {
+      width: 100;
+      padding-top: 30px;
+      padding-bottom: 30px;
+      margin-bottom: 40px;
+      background-color: #303030;
+    }
+
+    .text-hero {
+      color:#ffffff;
+      font-weight: 400;
+      text-align: center;
+    }
+
+    header {
+      display: inline-block;
+    }
+
+    .container-menu {
+      margin-top: 120px;
+      margin-left: 120px;
+      margin-right: 120px;
+      margin-bottom: 160px;
+    }
+
+    .container-menu-start {
+      display: inline-block;
+      width: fit-content;
+      text-align: left;
+    }
+    .container-menu-options {
+      display: inline-block;
     }
