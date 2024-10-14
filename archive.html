@@ -5,32 +5,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>archive</title>
     <link rel="stylesheet" href="style.css">
-    <script>
-      (function(d) {
-          var config = {
-            kitId: 'upe2pgz',
-            scriptTimeout: 3000,
-            async: true
-          },
-          h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
-        })(document);
-    </script>
+  <script>
+    (function(d) {
+        var config = {
+          kitId: 'upe2pgz',
+          scriptTimeout: 3000,
+          async: true
+        },
+        h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+      })(document);
+  </script>
 </head>
 <body>
-    <div class="container-menu"> 
-        <div class="container-menu-start">
-          <header><a class="element-menu-deaktiv" href="start.html">dennis polz</a></header>
-        </div>
-        <div class="container-menu-options"> 
-          <header><a class="element-menu-deaktiv" href="work.html">work</a></header>
-          <header><a class="element-menu-aktiv" href="archive.html">archive</a></header>
-          <header><a class="element-menu-deaktiv" href="about.html">about</a></header>
-        </div>
-      </div>
+
+<!--header-element-->
+
+<div class="container-menu"> 
+    <div class="container-menu-start">
+      <header>
+        <a class="element-menu-deaktiv" href="start.html">dennis polz</a>
+      </header>
+    </div>
+    <div class="container-menu-options"> 
+      <header><a class="element-menu-deaktiv" href="work.html">work</a></header>
+      <header><a class="element-menu-aktiv" href="archive.html">archive</a></header>
+      <header><a class="element-menu-deaktiv" href="about.html">about</a></header>
+    </div>
+  </div>
+  
+  <!--main-elements-->
+
 <main>
-    <p> here are some impressions of different things i worked on. 
-        photography, graphic design, social media assets or
-        other design products.</p>
+    <p class="headline">  
+                here are some impressions of different things i worked on.<br>  
+        <span class="subheadline">
+                photography, graphic design, social media assets or <br>
+                other design products.</span>
+    </p>
 
     <img src="images/archiv/bild-01.jpeg" 
                 alt="Mondfinssternis" 
@@ -88,11 +99,21 @@
                 width: 414px;
                 max-height: fit-content;">
 </main>
-<footer>
-    Let’s create together. 
-    Get in touch. 
-    <a href="madebypolz@gmail.com">Email</a>,
-    <a href="https://dribbble.com/dennispolz">Designs</a>  
+
+<!--footer-element-->
+
+<footer>    
+    <div class="container-footer"> 
+      <p class="text-footer">
+          Let’s create together.<br> 
+          Get in touch. 
+      </p>
+      <div class="container-footer-links"> 
+          <a class="text-footer-links" href="madebypolz@gmail.com">Email,</a> 
+          <a class="text-footer-links" href="https://dribbble.com/dennispolz">Designs</a> 
+      </div>
+  </div>
 </footer>
+
 </body>
 </html>
