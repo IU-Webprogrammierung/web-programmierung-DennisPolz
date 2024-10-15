@@ -2,6 +2,7 @@
   
   body {
         background-color: #fffcff;
+        margin: 0px;
     }
       
   h1 {
@@ -9,7 +10,8 @@
     margin-left: 120px;
     margin-bottom: 120px; 
     font-weight: 700;
-    font-size: 60px;
+    font-size: 72px;
+    letter-spacing: -3.6px;
   }
   
   h2 {
@@ -152,16 +154,15 @@
 
  /* Styles für Grid */
 
-
 .container-grid-start {
-  display: inline-grid;
-  grid-template-columns: 630px 630px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   margin: 0px 120px 80px 120px; 
   gap: 20px 20px;
 }
 
   .picture-start {
-        width: 630px;
+        width: 100%;
         height:590px;
         object-fit: cover;
     }
@@ -187,4 +188,30 @@
     display: inline-flex;
     justify-content: space-between;
     align-items: flex-start;
+  }
+
+   /* Styles für Grid Archive */
+
+  .container-grid-archive {
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0px 120px 40px 120px; 
+    gap: 20px 20px;
+  }
+  .picture-archive {
+    width: 100%;
+    object-fit: cover;
+  }
+  
+
+  /* Styles für About Text */
+
+  .container-text-about {
+    padding-bottom: 120px;
+  
+  }
+  .text-about {
+    margin-left: 120px;
+    margin-right: 120px;
+    font-size: 24px
   }
