@@ -1,0 +1,219 @@
+  /* Style für die obergeordneten Seitenelemente */
+  
+  body {
+        background-color: #fffcff;
+        margin: 0px;
+    }
+      
+  h1 {
+    font-family: "pretendard", sans-serif;
+    margin-left: 120px;
+    margin-bottom: 120px; 
+    font-weight: 700;
+    font-size: 72px;
+    letter-spacing: -3.6px;
+  }
+  
+  h2 {
+    font-family: "pretendard", sans-serif;
+    color: #1a1a1a;
+    margin-left: 120px;
+    margin-bottom: 120px; 
+    font-weight: 600;
+    font-size: 40px;
+  }
+    
+  p {
+        font-family: "pretendard", sans-serif;
+        color: #1a1a1a;
+        margin-left: 120px;
+        margin-right: 120px;
+        font-weight: 300;
+        font-size: 32px;
+        margin-bottom: 40px;
+    }
+
+  a {
+        font-family: "pretendard", sans-serif;
+        color:#1a1a1a;
+        text-decoration: none;
+  }
+
+  .headline,.subheadline { 
+    font-size: 32px; 
+    color: #1a1a1a;
+}
+
+.subheadline { 
+    color: #66645A;
+}
+
+  /* Style für das Hero-Element */
+
+  .container-hero {
+        display: flex;
+        padding-top: 200px;
+        padding-bottom: 200px;
+        margin-bottom: 40px;
+        flex-direction: column;
+        justify-content: center;
+        align-items:center;
+        gap: 8px;
+        background-color: #1a1a1a;
+  }
+
+  .text-hero {
+        color:#fffcff;
+        font-weight: 300;
+        font-size: 32px;
+        text-align: center;
+  }
+
+   /* Style für den .about-button */
+
+  button {
+        background-color: #66645A;
+        color: #fffcff; 
+        font-family: "pretendard", sans-serif;
+        font-weight: 400;
+        font-size: 20px;
+        border: none;
+        border-radius: 8px;
+        padding: 8px 32px;
+        width: 120px;
+        cursor: pointer;
+    }
+
+  .about-button {
+        color:#fffcff;
+        text-decoration: none;
+    }
+
+  button:hover {
+        background-color: #B0AD9B;
+    }
+
+ /* Styles für die Menüleiste */
+ 
+  .container-menu {
+        display: grid;
+        grid-template-columns: 120px 1fr;
+        margin-top: 120px;
+        margin-left: 120px;
+        margin-right: 120px;
+        margin-bottom: 160px;
+      }
+
+  .container-menu-options {
+        display: inline-flex;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 40px;
+}
+
+  .element-menu-aktiv {
+        font-weight: 500;
+        font-size: 20px;
+    }
+
+  .element-menu-deaktiv {
+        font-weight: 400;
+        font-size: 20px;
+    }
+
+  .element-menu-deaktiv:hover,.element-menu-aktiv:hover {
+        text-decoration: underline;
+    }
+
+ /* Styles für den Footer */
+
+
+ .container-footer {
+        padding-top: 80px;
+        padding-bottom: 80px;
+        background-color: #1a1a1a;
+ }
+
+ .text-footer {
+        color:#fffcff;
+        font-weight: 300;
+        font-size: 32px;
+        margin-bottom: 100px;
+}
+
+.container-footer-links {
+      margin-left: 120px;
+}
+ .text-footer-links {
+      color:#fffcff;
+      font-weight: 300;
+      font-size: 32px;
+ }
+
+ .text-footer-links:hover {
+      text-decoration: underline;
+ }
+
+ /* Styles für Grid */
+
+.container-grid-start {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0px 120px 80px 120px; 
+  gap: 20px 20px;
+}
+
+  .picture-start {
+        width: 100%;
+        height:590px;
+        object-fit: cover;
+    }
+
+  .overlay {
+        background-color: #000000;
+        opacity: 0.8;
+        transition: .2s ease;
+    }
+
+  .picture-start:hover.overlay {
+        opacity: 1.0;
+    }
+
+  header {
+        display: inline-block;
+    }
+
+  /* Styles für die Projektübersicht */
+
+  .container-headline-projekts {
+    margin-left: 120px;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+   /* Styles für Grid Archive */
+
+  .container-grid-archive {
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0px 120px 40px 120px; 
+    gap: 20px 20px;
+  }
+  .picture-archive {
+    width: 100%;
+    object-fit: cover;
+  }
+  
+
+  /* Styles für About Text */
+
+  .container-text-about {
+    padding-bottom: 120px;
+  
+  }
+  .text-about {
+    margin-left: 120px;
+    margin-right: 120px;
+    font-size: 24px
+  }

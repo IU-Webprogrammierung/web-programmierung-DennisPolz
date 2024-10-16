@@ -4,43 +4,86 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>about</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+      (function(d) {
+          var config = {
+            kitId: 'upe2pgz',
+            scriptTimeout: 3000,
+            async: true
+          },
+          h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+        })(document);
+    </script>
 </head>
 <body>
-    <header><a href="index.html">dennis polz</a></header>
-    <header><a href="work.html">work</a></header>
-    <header><a href="archive.html">archive</a></header>
-    <header><a href="about.html"><strong>about</strong></a></header>
+
+<!--header-element-->
+
+<div class="container-menu"> 
+    <div class="container-menu-start">
+      <header>
+        <a class="element-menu-deaktiv" href="start.html">dennis polz</a>
+      </header>
+    </div>
+    <div class="container-menu-options"> 
+      <header><a class="element-menu-deaktiv" href="work.html">work</a></header>
+      <header><a class="element-menu-deaktiv" href="archive.html">archive</a></header>
+      <header><a class="element-menu-aktiv" href="about.html">about</a></header>
+    </div>
+  </div>
+
 <main>
     <h1>About</h1>
-    <p> I am a multidisciplinary designer. I love cooking and I enjoy sports. 
+    <div class="container-text-about">
+      <p class="text-about">
+        I am a multidisciplinary designer. I love cooking and I enjoy sports. 
         Meeting interesting individuals or visiting beautiful places on this 
-        wonderful planet is what motivates me to create. 
-        I am fascinated and inspired by a wide range of topics, including fashion, 
-        the human mind, music, health, architecture and new technologies.</p>
-    <p> My previous roles required a wide range of different competencies, 
-        which I used to develop and expand my multidisciplinary skill set. 
-        I am skilled in user experience, prototyping, interface design, design systems, 
-        brand identity, research, digital and print design, and presentations. 
-        In addition, I  have a decent knowledge of sound design, photography, CMS, 
-        cutting and social media. I excel at connecting the dots and 
-        finding the missing pieces. I am passionate about learning new things.</p>
-    <p> I have had the privilege of working with a number of high-profile clients, 
-        including Porsche, Senec, the Goethe Institute, Xella, Kuka, 
-        Schaeffler Automotive, Traton SE, Kaut, Hisense, Panasonic and 
-        Rheinische Post Mediengruppe. I have written articles and shot a cover
-        picture for a major daily newspaper, produced songs for small local and 
-        global artists, created social media strategies and graphics, designed 
-        an app for business travellers, constructed a tunnel monitoring system, 
-        published magazines and created visual media for events in Singapore and 
-        Tenerife.</p>
-    <p> I am driven by a desire to create tangible, meaningful experiences 
-        and sustainable products that last.</p>
+        wonderful planet is what motivates me to create.
+        I am fascinated and inspired by a wide range of topics, including fashion,
+        the human mind, music, health, architecture and new technologies.
+      </p>
+      <p class="text-about">
+        My previous roles required a wide range of different competencies, 
+          which I used to develop and expand my multidisciplinary skill set. 
+          I am skilled in user experience, prototyping, interface design, design systems, 
+          brand identity, research, digital and print design, and presentations. 
+          In addition, I  have a decent knowledge of sound design, photography, CMS, 
+          cutting and social media. I excel at connecting the dots and 
+          finding the missing pieces. I am passionate about learning new things.
+      </p>
+      <p class="text-about">
+          I have had the privilege of working with a number of high-profile clients, 
+          including Porsche, Senec, the Goethe Institute, Xella, Kuka, 
+          Schaeffler Automotive, Traton SE, Kaut, Hisense, Panasonic and 
+          Rheinische Post Mediengruppe. I have written articles and shot a cover
+          picture for a major daily newspaper, produced songs for small local and 
+          global artists, created social media strategies and graphics, designed 
+          an app for business travellers, constructed a tunnel monitoring system, 
+          published magazines and created visual media for events in Singapore and 
+          Tenerife.
+      </p>
+      <p class="text-about">
+          I am driven by a desire to create tangible, meaningful experiences 
+          and sustainable products that last.
+      </p>
+    </div>
+   
 </main>
+
+<!--footer-element-->
+
 <footer>
-    Let’s create together. 
-    Get in touch. 
-    <a href="madebypolz@gmail.com">Email</a>,
-    <a href="https://dribbble.com/dennispolz">Designs</a>  
-</footer>
+    <div class="container-footer"> 
+      <p class="text-footer">
+          Let’s create together.<br> 
+          Get in touch. 
+      </p>
+      <div class="container-footer-links"> 
+          <a class="text-footer-links" href="madebypolz@gmail.com">Email,</a> 
+          <a class="text-footer-links" href="https://dribbble.com/dennispolz">Designs</a> 
+      </div>
+  </div>
+  </footer>
 </body>
 </html>

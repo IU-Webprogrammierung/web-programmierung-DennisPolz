@@ -4,20 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>work</title>
+    <link rel="stylesheet" href="style.css">
+  <script>
+    (function(d) {
+        var config = {
+          kitId: 'upe2pgz',
+          scriptTimeout: 3000,
+          async: true
+        },
+        h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+      })(document);
+  </script>
 </head>
 <body>
-    <header><a href="index.html">dennis polz</a></header>
-    <header><a href="work.html"><strong>work</strong></a></header>
-    <header><a href="archive.html">archive</a></header>
-    <header><a href="about.html">about</a></header>
+    
+<!--header-element-->
+
+<div class="container-menu"> 
+    <div class="container-menu-start">
+      <header>
+        <a class="element-menu-deaktiv" href="start.html">dennis polz</a>
+      </header>
+    </div>
+    <div class="container-menu-options"> 
+      <header><a class="element-menu-aktiv" href="work.html">work</a></header>
+      <header><a class="element-menu-deaktiv" href="archive.html">archive</a></header>
+      <header><a class="element-menu-deaktiv" href="about.html">about</a></header>
+    </div>
+  </div>
+  
+  <!--main-elements-->
+
 <main> 
-    <img src="images/project/Mockup-Titel-V02.png" 
+    <img src="images/project/Mockup-Titel-V03.jpg" 
             alt="Schaeffler Automechanika Frankfurt" 
             style="width:630px; max-height:100%;">
+
+
+<div class="container-headline-projekts">
     <h2>Tunnel Monitoring System</h2>
     <p> 2024</p>
-    <p> Services</p>
-    <p> User Research, Storyboards, Flowcharts, User Need Statements, Prototyping, 
+</div>            
+   
+    <p> Services<br>
+        User Research, Storyboards, Flowcharts, User Need Statements, Prototyping, 
         Design System, Interface Design</p>
     <p> The task was to develop a unified software system for the monitoring and control 
         of highway tunnels for the for the Highway Authority. The software enables operators 
@@ -45,11 +75,21 @@
                 alt="Screens"
                 style="width: 1280px; max-height:100%;">
 </main>
+
+<!--footer-element-->
+
 <footer>
-    Let’s create together. 
-    Get in touch. 
-    <a href="madebypolz@gmail.com">Email</a>,
-    <a href="https://dribbble.com/dennispolz">Designs</a>  
-</footer> 
+    <div class="container-footer"> 
+      <p class="text-footer">
+          Let’s create together.<br> 
+          Get in touch. 
+      </p>
+      <div class="container-footer-links"> 
+          <a class="text-footer-links" href="madebypolz@gmail.com">Email,</a> 
+          <a class="text-footer-links" href="https://dribbble.com/dennispolz">Designs</a> 
+      </div>
+  </div>
+</footer>
+
 </body>
 </html>
