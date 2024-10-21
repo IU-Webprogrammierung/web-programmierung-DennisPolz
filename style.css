@@ -1,9 +1,11 @@
-  /* Style für die obergeordneten Seitenelemente */
+  /* Body */
 
   body {
     background-color: #fffcff;
     margin: 0px;
   }
+
+  /* Textstyles */
 
   h1 {
     font-family: "pretendard", sans-serif;
@@ -18,25 +20,21 @@
   h2 {
     font-family: "pretendard", sans-serif;
     color: #1a1a1a;
+    margin: 0px 0px 0px 0px;
+    font-weight: 600;
     font-size: 32px;
-    margin-left: 120px;
-    margin-bottom: 120px;
+  }
+  
+  h2:hover {
+    text-decoration: underline;
   }
 
   p {
     font-family: "pretendard", sans-serif;
     color: #1a1a1a;
-    margin-left: 120px;
-    margin-right: 120px;
+    margin: 0px 120px 40px 120px;
     font-weight: 300;
     font-size: 32px;
-    margin-bottom: 40px;
-  }
-
-  a {
-    font-family: "pretendard", sans-serif;
-    color: #1a1a1a;
-    text-decoration: none;
   }
 
   .headline,
@@ -50,7 +48,34 @@
     color: #66645A;
   }
 
-  /* Style für das Hero-Element */
+  .text-hero {
+    color: #fffcff;
+    text-align: center;
+  }
+
+  .text-about {
+    color: #fffcff
+  }
+
+  .text-year {
+    margin: 0px 0px 0px 0px;
+    text-align: end;
+  }
+
+  a {
+    font-family: "pretendard", sans-serif;
+    color: #1a1a1a;
+    text-decoration: none;
+  }
+
+  .text-download {
+    font-weight: 600;
+  }
+  .text-download:hover {
+    text-decoration: underline;
+  }
+
+  /* Container */
 
   .container-hero {
     display: flex;
@@ -64,14 +89,7 @@
     background-color: #1a1a1a;
   }
 
-  .text-hero {
-    color: #fffcff;
-    font-weight: 300;
-    font-size: 32px;
-    text-align: center;
-  }
-
-  /* Style für den .about-button */
+  /* about-button */
 
   button {
     background-color: #66645A;
@@ -95,15 +113,12 @@
     background-color: #B0AD9B;
   }
 
-  /* Styles für die Menüleiste */
+  /* Menüleiste */
 
   .container-menu {
     display: grid;
     grid-template-columns: 140px 1fr;
-    margin-top: 120px;
-    margin-left: 120px;
-    margin-right: 120px;
-    margin-bottom: 160px;
+    margin: 120px 120px 160px 120px;
   }
 
   .container-menu-options {
@@ -114,7 +129,7 @@
   }
 
   .element-menu-aktiv {
-    font-weight: 600;
+    font-weight: 500;
     font-size: 24px;
     color: #66645A;
   }
@@ -129,8 +144,7 @@
     text-decoration: underline;
   }
 
-  /* Styles für den Footer */
-
+  /* Footer */
 
   .container-footer {
     padding-top: 80px;
@@ -159,7 +173,7 @@
     text-decoration: underline;
   }
 
-  /* Styles für Grid */
+  /* Grid Start */
 
   .container-grid-start {
     display: grid;
@@ -175,29 +189,66 @@
   }
 
   .overlay {
-    background-color: #000000;
-    opacity: 0.8;
-    transition: .2s ease;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #000;
+  }
+  
+  .picture-start:hover .overlay {
+    opacity: 0,2;
   }
 
-  .picture-start:hover.overlay {
-    opacity: 1.0;
+  .text {
+    color: #fffcff;
+    font-size: 24px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
   }
 
-  header {
-    display: inline-block;
+  /* Work */
+
+  .container-headline-projects,
+  .container-other-projects-row {
+    display: grid;
+    margin: 0px 120px 40px 120px;
+    grid-template-columns: 4fr 1fr;
+    align-items: baseline;
   }
 
-  /* Styles für die Projektübersicht */
-
-  .container-headline-projekts {
-    margin-left: 120px;
-    display: inline-flex;
-    justify-content: space-between;
-    align-items: flex-start;
+  .container-other-projects {
+    margin-bottom: 72px;
+  }
+  .container-other-projects-row { 
+    margin: 0px 120px 8px 120px;
+  }
+  .container-picture-work {
+    margin: 0px 120px 80px 120px;
+  }
+  .container-picture-work-example {
+    margin: 0px 120px 80px 120px;
   }
 
-  /* Styles für Grid Archive */
+  .picture-work-hero {
+    width: 100%;
+    height: 590px;
+    object-fit: cover;
+  }
+
+  .picture-work-example {
+    max-width: 100%;
+  }
+
+  /* Archive */
 
   .container-grid-archive {
     display: inline-grid;
@@ -209,10 +260,4 @@
   .picture-archive {
     width: 100%;
     object-fit: cover;
-  }
-
-  /* Styles für Aboutseite */
-
-  .text-about {
-    color:#fffcff
   }
