@@ -1,8 +1,16 @@
   /* Body */
 
+  :root {
+    --black: #1a1a1a;
+    --white: #fffcff;
+    --ancient: #66645A;
+    --mystic: #B0AD9B;
+  }
+
   body {
     background-color: #fffcff;
     margin: 0px;
+    padding: 0px;
   }
 
   /* Textstyles */
@@ -24,7 +32,7 @@
     font-weight: 600;
     font-size: 32px;
   }
-  
+
   h2:hover {
     text-decoration: underline;
   }
@@ -71,6 +79,7 @@
   .text-download {
     font-weight: 600;
   }
+
   .text-download:hover {
     text-decoration: underline;
   }
@@ -176,13 +185,22 @@
   /* Grid Start */
 
   .container-grid-start {
-    display: grid;
+    display: flex;
     grid-template-columns: 1fr 1fr;
     margin: 0px 120px 80px 120px;
     gap: 20px 20px;
   }
 
-  .picture-start {
+  .container-overlay {
+    margin: 0;
+    padding: 0;
+    height: 590px;
+    position: relative;
+  }
+
+  .pic-start {
+    margin: 0;
+    padding: 0;
     width: 100%;
     height: 590px;
     object-fit: cover;
@@ -197,17 +215,22 @@
     height: 100%;
     width: 100%;
     opacity: 0;
-    transition: .5s ease;
+    transition: .6s ease;
     background-color: #000;
   }
-  
-  .picture-start:hover .overlay {
-    opacity: 0,2;
+
+  .container-overlay:hover .overlay {
+    opacity: 0.8;
   }
 
   .text {
-    color: #fffcff;
+    font-family: "pretendard", sans-serif;
     font-size: 24px;
+    font-weight: 600;
+    color: var(--white);
+    text-align: center;
+    width: 100%;
+
     position: absolute;
     top: 50%;
     left: 50%;
@@ -228,12 +251,15 @@
   .container-other-projects {
     margin-bottom: 72px;
   }
-  .container-other-projects-row { 
+
+  .container-other-projects-row {
     margin: 0px 120px 8px 120px;
   }
+
   .container-picture-work {
     margin: 0px 120px 80px 120px;
   }
+
   .container-picture-work-example {
     margin: 0px 120px 80px 120px;
   }
@@ -251,13 +277,19 @@
   /* Archive */
 
   .container-grid-archive {
-    display: inline-grid;
+    display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    margin: 0px 120px 40px 120px;
+    margin: 0px 120px 80px 120px;
     gap: 20px 20px;
   }
 
-  .picture-archive {
+  .pic-archive {
     width: 100%;
     object-fit: cover;
+  }
+
+  .row {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
   }
