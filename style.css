@@ -78,6 +78,7 @@
 
   .text-download {
     font-weight: 600;
+    margin-bottom: 80px;
   }
 
   .text-download:hover {
@@ -153,6 +154,14 @@
     text-decoration: underline;
   }
 
+  .container-menu-mobile {
+    display:none;
+  }
+
+  .menu-mobile {
+    text-align: end;
+  }
+
   /* Footer */
 
   .container-footer {
@@ -161,21 +170,19 @@
     background-color: #1a1a1a;
   }
 
-  .text-footer {
+  .text-footer,
+  .text-footer-links {
     color: #fffcff;
     font-weight: 300;
     font-size: 32px;
+  }
+
+  .text-footer {
     margin-bottom: 100px;
   }
 
   .container-footer-links {
     margin-left: 120px;
-  }
-
-  .text-footer-links {
-    color: #fffcff;
-    font-weight: 300;
-    font-size: 32px;
   }
 
   .text-footer-links:hover {
@@ -256,10 +263,7 @@
     margin: 0px 120px 8px 120px;
   }
 
-  .container-picture-work {
-    margin: 0px 120px 80px 120px;
-  }
-
+  .container-picture-work,
   .container-picture-work-example {
     margin: 0px 120px 80px 120px;
   }
@@ -272,6 +276,10 @@
 
   .picture-work-example {
     max-width: 100%;
+  }
+
+  .container-download {
+    margin-bottom: 80px;
   }
 
   /* Archive */
