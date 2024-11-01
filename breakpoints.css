@@ -12,6 +12,15 @@
     margin: 0px 80px 40px 80px;
   }
 
+  h2,
+  .h2-sub {
+    margin: 0px 80px 0px 80px;
+  }
+
+  .h2-sub {
+    margin-bottom: 40px;
+  }
+
   .container-menu {
     display: grid;
     grid-template-columns: 140px 1fr;
@@ -66,17 +75,19 @@
 
   h2,
   .h2-sub {
+    margin: 0px 40px 00px 40px;
     font-size: 36px;
     font-weight: 300;
     color: #1a1a1a;
   }
 
   .h2-sub {
+    margin-bottom: 40px;
     color: #66645A;
   }
 
   .container-menu {
-    display:none;
+    display: none;
   }
 
   .container-menu-mobile {
@@ -159,7 +170,7 @@
     font-size: 24px;
     margin-bottom: 32px;
   }
-  
+
   .text-footer,
   .text-footer-links {
     font-size: 24px;
