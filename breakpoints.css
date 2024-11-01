@@ -64,14 +64,14 @@
     margin: 0px 40px 40px 40px;
   }
 
-  .headline,
-  .subheadline {
+  h2,
+  .h2-sub {
     font-size: 36px;
     font-weight: 300;
     color: #1a1a1a;
   }
 
-  .subheadline {
+  .h2-sub {
     color: #66645A;
   }
 
@@ -140,7 +140,18 @@
     margin-bottom: 80px;
   }
 
-  h2 {
+  h2,
+  .h2-sub {
+    font-size: 28px;
+    font-weight: 300;
+    color: #1a1a1a;
+  }
+
+  .h2-sub {
+    color: #66645A;
+  }
+
+  h3 {
     font-size: 24px;
   }
 
@@ -148,18 +159,7 @@
     font-size: 24px;
     margin-bottom: 32px;
   }
-
-  .headline,
-  .subheadline {
-    font-size: 28px;
-    font-weight: 300;
-    color: #1a1a1a;
-  }
-
-  .subheadline {
-    color: #66645A;
-  }
-
+  
   .text-footer,
   .text-footer-links {
     font-size: 24px;
