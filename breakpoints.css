@@ -21,9 +21,11 @@
     margin-bottom: 40px;
   }
 
-  .container-menu {
-    display: grid;
-    grid-template-columns: 140px 1fr;
+  .container-hero {
+    padding: 200px 200px;
+  }
+
+  nav {
     margin: 120px 80px 160px 80px;
   }
 
@@ -77,22 +79,23 @@
   .h2-sub {
     margin: 0px 40px 00px 40px;
     font-size: 36px;
-    font-weight: 300;
-    color: #1a1a1a;
   }
 
   .h2-sub {
     margin-bottom: 40px;
-    color: #66645A;
   }
 
-  .container-menu {
+  nav {
     display: none;
   }
 
-  .container-menu-mobile {
+  .nav-mobile {
     display: grid;
-    margin: 120px 40px 160px 40px;
+    margin: 80px 40px 100px 40px;
+  }
+
+  .container-hero {
+    padding: 200px 120px;
   }
 
   .container-grid-start {
@@ -154,12 +157,6 @@
   h2,
   .h2-sub {
     font-size: 28px;
-    font-weight: 300;
-    color: #1a1a1a;
-  }
-
-  .h2-sub {
-    color: #66645A;
   }
 
   h3 {
@@ -181,9 +178,7 @@
   }
 
   .container-hero {
-    display: flex;
-    padding-top: 200px;
-    padding-bottom: 200px;
+    padding: 200px 80px;
   }
 
   .container-picture-work,
@@ -198,4 +193,63 @@
 
 /* iPhone 16 Pro Max 440px */
 
+@media screen and (max-width: 440px) {
+
+
+  h1 {
+    letter-spacing: -6px;
+  }
+
+  p {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  .container-hero {
+    padding: 200px 20px;
+  }
+
+  .container-overlay {
+    height: 400px;
+  }
+
+  .pic-start {
+    height: 400px;
+  }
+
+  .container-grid-archive {
+    gap: 10px 20px;
+  }
+
+  .row {
+    row-gap: 10px;
+  }
+}
+
 /* iPhone 16 393px */
+
+@media screen and (max-width: 393px) {
+
+  h1 {
+    font-size: 64px;
+    margin-bottom: 60px;
+  }
+
+  h3 {
+    font-size: 22px;
+  }
+
+  p {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+
+  .text-footer,
+  .text-footer-links {
+    font-size: 22px;
+  }
+
+  .text-footer {
+    margin-bottom: 40px;
+  }
+}
