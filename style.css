@@ -85,8 +85,11 @@
   }
 
   .text-download {
+    display: flex;
+    align-items: flex-end;
     font-weight: 600;
     margin-bottom: 80px;
+    gap: 8px; 
   }
 
   .text-download:hover {
@@ -197,8 +200,6 @@
     color: #fffcff;
   }
 
-  
-
   /* Footer */
 
   .container-footer {
@@ -268,11 +269,13 @@
   }
 
   .text-overlay {
+    display: flex;
     font-family: "pretendard", sans-serif;
     font-size: 24px;
     font-weight: 600;
     color: var(--white);
-    text-align: center;
+    justify-content: center;
+    gap: 8px;
     width: 100%;
 
     position: absolute;
@@ -299,6 +302,13 @@
   .container-other-projects-row {
     margin: 0px 120px 8px 120px;
   }
+
+  .container-other-projects-row-02 {
+    display: flex;
+    align-items: flex-end;
+    gap: 8px;
+    width: 100%;
+  }  
 
   .container-picture-work {
     margin: 0px 120px 80px 120px;
