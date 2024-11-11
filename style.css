@@ -8,16 +8,20 @@
   }
 
   body {
-    background-color: #fffcff;
+    background-color: var(--white);
     margin: 0px;
     padding: 0px;
+  }
+
+  .background-dark {
+    background-color: var(--black);
   }
 
   /* Textstyles */
 
   h1 {
     font-family: "pretendard", sans-serif;
-    color: #fffcff;
+    color: var(--white);
     margin-left: 120px;
     margin-bottom: 120px;
     font-weight: 800;
@@ -28,7 +32,7 @@
   h2,
   .h2-sub {
     font-family: "pretendard", sans-serif;
-    color: #1a1a1a;
+    color: var(--black);
     margin: 0px 120px 0px 120px;
     font-size: 40px;
     font-weight: 300;
@@ -37,12 +41,12 @@
 
   .h2-sub {
     margin: 0px 120px 40px 120px;
-    color: #66645A;
+    color: var(--ancient);
   }
 
   h3 {
     font-family: "pretendard", sans-serif;
-    color: #1a1a1a;
+    color: var(--black);
     margin: 0px 0px 0px 0px;
     font-weight: 600;
     font-size: 32px;
@@ -54,19 +58,19 @@
 
   p {
     font-family: "pretendard", sans-serif;
-    color: #1a1a1a;
+    color: var(--black);
     margin: 0px 120px 40px 120px;
     font-weight: 300;
     font-size: 32px;
   }
 
   .text-hero {
-    color: #fffcff;
+    color: var(--white);
     text-align: center;
   }
 
   .text-about {
-    color: #fffcff
+    color: var(--white);
   }
 
   .text-year {
@@ -80,7 +84,7 @@
 
   a {
     font-family: "pretendard", sans-serif;
-    color: #1a1a1a;
+    color: var(--black);
     text-decoration: none;
   }
 
@@ -89,7 +93,7 @@
     align-items: flex-end;
     font-weight: 600;
     margin-bottom: 80px;
-    gap: 8px; 
+    gap: 8px;
   }
 
   .text-download:hover {
@@ -106,14 +110,14 @@
     justify-content: center;
     align-items: center;
     gap: 8px;
-    background-color: #1a1a1a;
+    background-color: var(--black);
   }
 
   /* about-button */
 
   button {
-    background-color: #66645A;
-    color: #fffcff;
+    background-color: var(--ancient);
+    color: var(--white);
     font-family: "pretendard", sans-serif;
     font-weight: 400;
     font-size: 20px;
@@ -125,12 +129,12 @@
   }
 
   .about-button {
-    color: #fffcff;
+    color: var(--white);
     text-decoration: none;
   }
 
   button:hover {
-    background-color: #B0AD9B;
+    background-color: var(--mystic);
   }
 
   /* Nav Desktop */
@@ -158,7 +162,7 @@
   .nav-aktiv {
     font-weight: 500;
     font-size: 24px;
-    color: #66645A;
+    color: var(--ancient);
   }
 
   .nav-deaktiv {
@@ -175,7 +179,6 @@
 
   .nav-mobile {
     display: none;
-    text-align: end;
   }
 
   .nav-mobile-ul {
@@ -197,7 +200,7 @@
     font-weight: 400;
     font-size: 20px;
     text-align: center;
-    color: #fffcff;
+    color: var(--white);
   }
 
   /* Footer */
@@ -210,7 +213,7 @@
 
   .text-footer,
   .text-footer-links {
-    color: #fffcff;
+    color: var(--white);
     font-weight: 300;
     font-size: 32px;
   }
@@ -308,7 +311,7 @@
     align-items: flex-end;
     gap: 8px;
     width: 100%;
-  }  
+  }
 
   .container-picture-work {
     margin: 0px 120px 80px 120px;
