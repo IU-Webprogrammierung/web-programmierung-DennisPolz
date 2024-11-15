@@ -90,7 +90,8 @@
   }
 
   .nav-mobile {
-    display: grid;
+    display: flex;
+    justify-content: flex-end;
     margin: 80px 40px 100px 40px;
   }
 
