@@ -21,7 +21,7 @@
 
   h1 {
     font-family: "pretendard", sans-serif;
-    color: var(--white);
+    color: var(--black);
     margin-left: 120px;
     margin-bottom: 120px;
     font-weight: 800;
@@ -67,10 +67,6 @@
   .text-hero {
     color: var(--white);
     text-align: center;
-  }
-
-  .text-about {
-    color: var(--white);
   }
 
   .text-year {
@@ -205,6 +201,12 @@
 
   /* Footer */
 
+  footer {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: var(--black);
+  }
+
   .container-footer {
     padding-top: 80px;
     padding-bottom: 80px;
@@ -214,6 +216,12 @@
   .text-footer,
   .text-footer-links {
     color: var(--white);
+    font-weight: 300;
+    font-size: 32px;
+  }
+
+  .text-footer-links-about {
+    color: var(--black);
     font-weight: 300;
     font-size: 32px;
   }
