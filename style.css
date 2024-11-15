@@ -1,27 +1,35 @@
   /* Body */
 
   :root {
-    --black: #1a1a1a;
-    --white: #fffcff;
-    --ancient: #66645A;
-    --mystic: #B0AD9B;
+    --gray-200: #1a1a1a;
+    --gray-100: #fffcff;
+    --accent-200: #66645A;
+    --accent-100: #B0AD9B;
+
+    --background-color: var(--gray-100);
+    --text-color: var(--gray-200);
+    --color-accent-primary: var(--accent-200);
+    --color-accent-secondary: var(--accent-100);
   }
 
   body {
-    background-color: var(--white);
+    background-color: var(--background-color);
     margin: 0px;
     padding: 0px;
   }
 
-  .background-dark {
-    background-color: var(--black);
+  body.theme-dark {
+    --background-color: var(--gray-200);
+    --text-color: var(--gray-100);
+    --color-accent-primary: var(--accent-100);
+    --color-accent-secondary: var(--accent-200);
   }
 
   /* Textstyles */
 
   h1 {
     font-family: "pretendard", sans-serif;
-    color: var(--black);
+    color: var(--text-color);
     margin-left: 120px;
     margin-bottom: 120px;
     font-weight: 800;
@@ -32,7 +40,7 @@
   h2,
   .h2-sub {
     font-family: "pretendard", sans-serif;
-    color: var(--black);
+    color: var(--text-color);
     margin: 0px 120px 0px 120px;
     font-size: 40px;
     font-weight: 300;
@@ -41,12 +49,12 @@
 
   .h2-sub {
     margin: 0px 120px 40px 120px;
-    color: var(--ancient);
+    color: var(--color-accent-primary);
   }
 
   h3 {
     font-family: "pretendard", sans-serif;
-    color: var(--black);
+    color: var(--text-color);
     margin: 0px 0px 0px 0px;
     font-weight: 600;
     font-size: 32px;
@@ -58,14 +66,14 @@
 
   p {
     font-family: "pretendard", sans-serif;
-    color: var(--black);
+    color: var(--text-color);
     margin: 0px 120px 40px 120px;
     font-weight: 300;
     font-size: 32px;
   }
 
   .text-hero {
-    color: var(--white);
+    color: var(--gray-100);
     text-align: center;
   }
 
@@ -80,7 +88,7 @@
 
   a {
     font-family: "pretendard", sans-serif;
-    color: var(--black);
+    color: var(--text-color);
     text-decoration: none;
   }
 
@@ -106,13 +114,13 @@
     justify-content: center;
     align-items: center;
     gap: 8px;
-    background-color: var(--black);
+    background-color: var(--gray-200);
   }
 
   /* about-button */
 
   button {
-    background-color: var(--ancient);
+    background-color: var(--accent-200);
     color: var(--white);
     font-family: "pretendard", sans-serif;
     font-weight: 400;
@@ -125,12 +133,12 @@
   }
 
   .about-button {
-    color: var(--white);
+    color: var(--gray-100);
     text-decoration: none;
   }
 
   button:hover {
-    background-color: var(--mystic);
+    background-color: var(--accent-100);
   }
 
   /* Nav Desktop */
@@ -158,7 +166,7 @@
   .nav-aktiv {
     font-weight: 500;
     font-size: 24px;
-    color: var(--ancient);
+    color: var(--color-accent-primary);
   }
 
   .nav-deaktiv {
@@ -204,24 +212,12 @@
   footer {
     padding-top: 80px;
     padding-bottom: 80px;
-    background-color: var(--black);
-  }
-
-  .container-footer {
-    padding-top: 80px;
-    padding-bottom: 80px;
-    background-color: #1a1a1a;
+    background-color: var(--gray-200);
   }
 
   .text-footer,
   .text-footer-links {
-    color: var(--white);
-    font-weight: 300;
-    font-size: 32px;
-  }
-
-  .text-footer-links-about {
-    color: var(--black);
+    color: var(--gray-100);
     font-weight: 300;
     font-size: 32px;
   }
@@ -284,7 +280,7 @@
     font-family: "pretendard", sans-serif;
     font-size: 24px;
     font-weight: 600;
-    color: var(--white);
+    color: var(--gray-100);
     justify-content: center;
     gap: 8px;
     width: 100%;
