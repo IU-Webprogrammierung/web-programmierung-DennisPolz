@@ -169,7 +169,8 @@
     margin-bottom: 32px;
   }
 
-  address {
+  .text-footer,
+  .text-footer-links {
     font-size: 24px;
   }
 
@@ -244,7 +245,8 @@
     margin-bottom: 20px;
   }
 
-  address {
+  .text-footer,
+  .text-footer-links {
     font-size: 22px;
   }
 

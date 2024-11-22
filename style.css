@@ -233,14 +233,18 @@
     text-decoration: underline;
   }
 
-  .text-footer {
+  .text-footer,
+  .text-footer-links {
     color: var(--gray-100);
     font-weight: 300;
     font-size: 32px;
-    margin-bottom: 100px;
   }
 
-  .container-footer {
+  .text-footer-links {
+    margin-bottom: 100px;
+  } 
+
+  .container-footer-links {
     margin-left: 120px;
   }
 
