@@ -1,36 +1,38 @@
-.wrapperLoader {
+.loader {
+    position: fixed;
+    top: 0;
+    left: 0;
     width: 100vw;
     height: 100vh;
     max-width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--gray-200);
-    transition: opacity 0.75s, visibility 0,75s;
+    background-color: var(--gray-100);
+    transition: opacity 1s, visibility 2s;
 }
 
-.wrapperLoader-hidden {
+.loader-hidden {
     opacity: 0;
     visibility: hidden;
 }
 
-.loader {
+.loader::after {
+    content: "";
     width: 4vw;
     height: 4vw;
     border-radius: 50%;
     border: 4vw solid var(--accent-100);
     border-top: 4vw solid var(--accent-200);
-    animation: circle 0.75s ease infinite; 
+    animation: circle 0.5s ease infinite;
 }
 
 @keyframes circle {
-    0% {transform: rotateZ(0);}
-    100% {transform: rotateZ(360deg);}
-}
+    from {
+        transform: rotate(0turn);
+    }
 
-.wrapperLock {
-    width: 100vw;
-    height: 100vh;
-    max-width: 100%;
-    overflow: hidden;
+    to {
+        transform: rotate(1turn);
+    }
 }
