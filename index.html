@@ -9,30 +9,36 @@
   <!--css-->
 
   <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="styles/preloader.css">
   <link rel="stylesheet" href="styles/start.css">
   <link rel="stylesheet" href="styles/nav.css">
   <link rel="stylesheet" href="styles/breakpoints.css">
 
 
   <!--js-->
-  
-  <script src="js/font.js"></script>
+
+  <script src="js/font.js"></script> 
+  <script src="js/preloader.js"></script>
 
 </head>
 
 <body>
 
-  <!--header-->
+<div class="wrapperLock">
+    <div class="wrapperLoader">
+      <div class="loader"></div>
+  </div>
 
-  <header class="container-hero">
-    <p class="text-hero">
-      hi. i’m dennis: a multi disciplinary designer.
-      i help you to understand complex problems and
-      transform them into sustainable solutions. </p>
-    <button>
-      <a class="about-button" href="about.html">about</a>
-    </button>
-    </div>
+    <!--header-->
+
+    <header class="container-hero">
+      <p class="text-hero">
+        hi. i’m dennis: a multi disciplinary designer.
+        i help you to understand complex problems and
+        transform them into sustainable solutions. </p>
+      <button>
+        <a class="about-button" href="about.html">about</a>
+      </button>
   </header>
 
   <!--nav desktop-->
@@ -136,6 +142,8 @@
     </div>
   </footer>
 
+</div>
+<script src="js/preloader-end.js"></script>
 </body>
 
 </html>
