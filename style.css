@@ -199,12 +199,16 @@
     -ms-transform: translate(-50%, -50%);
   }
 
+  ul {
+    padding-inline-start: 0px;
+  }
+
   .nav-mobile-txt {
     font-family: "pretendard", sans-serif;
     font-weight: 400;
     font-size: 20px;
     text-align: center;
-    color: var(--white);
+    color: var(--text-color);
   }
 
   /* Footer */
@@ -215,18 +219,28 @@
     background-color: var(--gray-200);
   }
 
-  .text-footer,
-  .text-footer-links {
+  address {
+    font-family: "pretendard", sans-serif;
+    font-style: normal;
+    display: inline-flex;
     color: var(--gray-100);
     font-weight: 300;
     font-size: 32px;
+    text-decoration: none;
+  }
+
+  address:hover {
+    text-decoration: underline;
   }
 
   .text-footer {
+    color: var(--gray-100);
+    font-weight: 300;
+    font-size: 32px;
     margin-bottom: 100px;
   }
 
-  .container-footer-links {
+  .container-footer {
     margin-left: 120px;
   }
 
