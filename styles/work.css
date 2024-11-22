@@ -1,0 +1,36 @@
+/* Work */
+
+.container-headline-projects,
+.container-other-projects-row {
+  display: grid;
+  margin: 0px 120px 40px 120px;
+  grid-template-columns: 4fr 1fr;
+  align-items: baseline;
+}
+
+.container-other-projects {
+  margin-bottom: 72px;
+}
+
+.container-other-projects-row {
+  margin: 0px 120px 8px 120px;
+}
+
+.container-other-projects-row-02 {
+  display: flex;
+  align-items: flex-end;
+  gap: 8px;
+  width: 100%;
+}
+
+.container-picture-work {
+  margin: 0px 120px 80px 120px;
+}
+
+.picture-work {
+  max-width: 100%;
+}
+
+.container-download {
+  margin-bottom: 80px;
+}
