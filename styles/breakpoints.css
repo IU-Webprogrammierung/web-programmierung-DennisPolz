@@ -5,7 +5,7 @@
 @media screen and (max-width: 1280px) {
 
   h1 {
-    margin-left: 80px;
+    margin: 0px 240px 40px 80px;
   }
 
   p {
@@ -60,6 +60,10 @@
   .container-footer-links {
     margin-left: 80px;
   }
+
+  .con-about {
+    margin: 0px 360px 100px 80px;
+}
 }
 
 /* iPad Pro 1024px */
@@ -67,7 +71,8 @@
 @media screen and (max-width: 1024px) {
 
   h1 {
-    margin-left: 40px;
+    font-size: 160px;
+    margin: 0px 120px 40px 40px;
   }
 
   p {
@@ -143,6 +148,10 @@
   .text-footer {
     margin-bottom: 80px;
   }
+
+  .con-about {
+    margin: 0px 200px 100px 40px;
+}
 }
 
 /* iPad Air 820px */
