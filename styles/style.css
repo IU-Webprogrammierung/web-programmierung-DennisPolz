@@ -30,10 +30,10 @@
   h1 {
     font-family: "pretendard", sans-serif;
     color: var(--text-color);
-    margin: 0px 440px 80px 120px;
+    margin: 0px 240px 40px 320px;
     font-weight: 800;
     font-size: 240px;
-    letter-spacing: -8px;
+    letter-spacing: -24px;
   }
 
   h2,
