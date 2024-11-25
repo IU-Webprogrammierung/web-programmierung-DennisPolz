@@ -1,4 +1,3 @@
-
 (function (d) {
   var config = {
     kitId: 'upe2pgz',
