@@ -1,6 +1,6 @@
   /* Archive */
 
-  .container-grid-archive {
+  .con-grid-archive {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     margin: 0px 120px 80px 120px;

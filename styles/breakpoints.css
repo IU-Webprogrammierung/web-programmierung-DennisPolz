@@ -21,7 +21,7 @@
     margin-bottom: 40px;
   }
 
-  .container-hero {
+  .con-hero {
     padding: 200px 200px;
   }
 
@@ -29,31 +29,31 @@
     margin: 120px 80px 160px 80px;
   }
 
-  .container-grid-start {
+  .con-grid-start {
     margin: 0px 80px 80px 80px;
   }
 
-  .container-grid-archive {
+  .con-grid-archive {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     margin: 0px 80px 80px 80px;
     gap: 20px 20px;
   }
 
-  .container-headline-projects,
-  .container-other-projects-row {
+  .con-headline-projects,
+  .con-other-projects-row {
     display: grid;
     margin: 0px 80px 40px 80px;
     grid-template-columns: 4fr 1fr;
     align-items: baseline;
   }
 
-  .container-other-projects-row {
+  .con-other-projects-row {
     margin-bottom: 8px;
   }
 
-  .container-picture-work,
-  .container-picture-work-example {
+  .con-picture-work,
+  .con-picture-work-example {
     margin: 0px 80px 80px 80px;
   }
 
@@ -63,7 +63,7 @@
 
   .con-about {
     margin: 0px 200px 100px 240px;
-}
+  }
 }
 
 /* iPad Pro 1024px */
@@ -98,63 +98,63 @@
     margin: 80px 40px 100px 40px;
   }
 
-  .container-hero {
+  .con-hero {
     padding: 200px 120px;
   }
 
-  .container-grid-start {
+  .con-grid-start {
     display: flex;
     flex-direction: column;
     margin: 0px 40px 40px 40px;
   }
 
-  .container-grid-archive {
+  .con-grid-archive {
     display: grid;
     grid-template-columns: 1fr;
     margin: 0px 40px 40px 40px;
     gap: 20px 20px;
   }
 
-  .container-footer-links {
+  .con-footer-links {
     margin-left: 40px;
   }
 
-  .container-headline-projects,
-  .container-other-projects-row {
+  .con-headline-projects,
+  .con-other-projects-row {
     display: grid;
     margin: 0px 40px 40px 40px;
     grid-template-columns: 4fr 1fr;
     align-items: baseline;
   }
 
-  .container-other-projects-row {
+  .con-other-projects-row {
     margin-bottom: 8px;
   }
 
-  .container-other-projects {
+  .con-other-projects {
     margin-bottom: 40px;
   }
 
-  .container-picture-work,
-  .container-picture-work-example {
+  .con-picture-work,
+  .con-picture-work-example {
     margin: 0px 40px 80px 40px;
   }
 
-  .container-footer-links {
+  .con-footer-links {
     margin-left: 40px;
   }
 
-  .text-footer {
+  .txt-footer {
     margin-bottom: 80px;
   }
 
   .con-about {
     margin: 0px 200px 100px 40px;
-}
+  }
 
-.viewport-about {
-  height: 90vh;
-}
+  .viewport-about {
+    height: 90vh;
+  }
 
 }
 
@@ -181,35 +181,35 @@
     margin-bottom: 32px;
   }
 
-  .text-footer,
-  .text-footer-links {
+  .txt-footer,
+  .txt-footer-links {
     font-size: 24px;
   }
 
-  .text-footer {
+  .txt-footer {
     margin-bottom: 60px;
   }
 
-  .container-hero {
+  .con-hero {
     padding: 200px 80px;
   }
 
-  .container-picture-work,
-  .container-picture-work-example {
+  .con-picture-work,
+  .con-picture-work-example {
     margin: 0px 40px 40px 40px;
   }
 
-  .container-download {
+  .con-download {
     margin-bottom: 40px;
   }
 
   .con-about {
     margin: 0px 80px 100px 40px;
-}
+  }
 
-.viewport-about {
-  height: 85vh;
-}
+  .viewport-about {
+    height: 85vh;
+  }
 }
 
 /* iPhone 16 Pro Max 440px */
@@ -218,7 +218,7 @@
 
 
   h1 {
-font-size: 100px;
+    font-size: 100px;
   }
 
   p {
@@ -226,11 +226,11 @@ font-size: 100px;
     margin-bottom: 20px;
   }
 
-  .container-hero {
+  .con-hero {
     padding: 200px 20px;
   }
 
-  .container-overlay {
+  .con-overlay {
     height: 400px;
   }
 
@@ -238,7 +238,7 @@ font-size: 100px;
     height: 400px;
   }
 
-  .container-grid-archive {
+  .con-grid-archive {
     gap: 10px 20px;
   }
 
@@ -248,12 +248,11 @@ font-size: 100px;
 
   .con-about {
     margin: 0px 40px 100px 40px;
-}
+  }
 
-.viewport-about {
-  height: 80vh;
-}
-
+  .viewport-about {
+    height: 80vh;
+  }
 }
 
 /* iPhone 16 393px */
@@ -269,8 +268,8 @@ font-size: 100px;
     margin-bottom: 20px;
   }
 
-  .text-footer,
-  .text-footer-links {
+  .txt-footer,
+  .txt-footer-links {
     font-size: 22px;
   }
 

@@ -1,6 +1,6 @@
  /* Container */
 
- .container-hero {
+ .con-hero {
    display: flex;
    padding: 200px 300px;
    margin-bottom: 40px;
@@ -9,6 +9,11 @@
    align-items: center;
    gap: 8px;
    background-color: var(--gray-200);
+ }
+
+ .txt-hero {
+   color: var(--gray-100);
+   text-align: center;
  }
 
  /* about-button */
@@ -37,7 +42,7 @@
 
  /* Grid Start */
 
- .container-grid-start {
+ .con-grid-start {
    display: grid;
    grid-template-columns: 1fr 1fr;
    margin: 0px 120px 80px 120px;
@@ -50,7 +55,7 @@
    row-gap: 20px;
  }
 
- .container-overlay {
+ .con-overlay {
    margin: 0;
    padding: 0;
    height: 590px;
@@ -78,11 +83,11 @@
    background-color: #000;
  }
 
- .container-overlay:hover .overlay {
+ .con-overlay:hover .overlay {
    opacity: 0.8;
  }
 
- .text-overlay {
+ .txt-overlay {
    display: flex;
    align-items: flex-start;
    font-family: "pretendard", sans-serif;

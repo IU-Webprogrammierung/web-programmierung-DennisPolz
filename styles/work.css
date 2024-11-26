@@ -1,36 +1,57 @@
 /* Work */
 
-.container-headline-projects,
-.container-other-projects-row {
+.txt-year {
+  margin: 0px 0px 0px 0px;
+  text-align: end;
+}
+
+.txt-services {
+  margin-bottom: 0px;
+}
+
+.con-headline-projects,
+.con-other-projects-row {
   display: grid;
   margin: 0px 120px 40px 120px;
   grid-template-columns: 4fr 1fr;
   align-items: baseline;
 }
 
-.container-other-projects {
+.con-other-projects {
   margin-bottom: 72px;
 }
 
-.container-other-projects-row {
+.con-other-projects-row {
   margin: 0px 120px 8px 120px;
 }
 
-.container-other-projects-row-02 {
+.con-other-projects-row-02 {
   display: flex;
   align-items: flex-end;
   gap: 8px;
   width: 100%;
 }
 
-.container-picture-work {
+.con-pic-work {
   margin: 0px 120px 80px 120px;
 }
 
-.picture-work {
+.pic-work {
   max-width: 100%;
 }
 
-.container-download {
+.con-download {
   margin-bottom: 80px;
+}
+
+.txt-download {
+  display: flex;
+  align-items: flex-end;
+  font-weight: 600;
+  margin-bottom: 80px;
+  gap: 8px;
+}
+
+.txt-download:hover {
+  text-decoration: underline;
 }

@@ -71,36 +71,10 @@
     font-size: 32px;
   }
 
-  .text-hero {
-    color: var(--gray-100);
-    text-align: center;
-  }
-
-  .text-year {
-    margin: 0px 0px 0px 0px;
-    text-align: end;
-  }
-
-  .text-services {
-    margin-bottom: 0px;
-  }
-
   a {
     font-family: "pretendard", sans-serif;
     color: var(--text-color);
     text-decoration: none;
-  }
-
-  .text-download {
-    display: flex;
-    align-items: flex-end;
-    font-weight: 600;
-    margin-bottom: 80px;
-    gap: 8px;
-  }
-
-  .text-download:hover {
-    text-decoration: underline;
   }
 
   /* Footer */
@@ -111,21 +85,21 @@
     background-color: var(--gray-200);
   }
 
-  .text-footer,
-  .text-footer-links {
+  .txt-footer,
+  .txt-footer-links {
     color: var(--gray-100);
     font-weight: 300;
     font-size: 32px;
   }
 
-  .text-footer-links {
+  .txt-footer-links {
     margin-bottom: 100px;
   }
 
-  .container-footer-links {
+  .con-footer-links {
     margin-left: 120px;
   }
 
-  .text-footer-links:hover {
+  .txt-footer-links:hover {
     text-decoration: underline;
   }
