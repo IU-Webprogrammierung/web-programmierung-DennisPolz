@@ -1,19 +1,19 @@
-  /* Archive */
+/* Archive */
 
-  .con-grid-archive {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    margin: 0px 120px 80px 120px;
-    gap: 20px 20px;
-  }
+.con-grid-archive {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 0px 120px 80px 120px;
+  gap: 20px 20px;
+}
 
-  .pic-archive {
-    width: 100%;
-    object-fit: cover;
-  }
+.pic-archive {
+  width: 100%;
+  object-fit: cover;
+}
 
-  .row {
-    display: flex;
-    flex-direction: column;
-    row-gap: 20px;
-  }
+.row {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
